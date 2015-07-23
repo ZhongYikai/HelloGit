@@ -13,4 +13,10 @@ public class MainActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_main);
 	}
 
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+	}
+	
 }
